@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: fuenteviccio;
+    src: url(../font/Cleveland\ \(DEMO\).ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fuenteviccio2;
+    src: url(../font/MilkyRainbow-6YWJ1.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* BARRA DE NAVEGACION */
+.tamlogo {
+    width: 270px;
+    height: 150px;
+}
+
+.navbar-nav {
+    background-color: #333;
+}
+
+.navbar {
+    background-color: #333 !important;
+}
+
+.nav-link {
+    font-size: 25px;
+    font-family: fuenteviccio;
+    color: wheat;
+}
+
+header {
+    background-color: #333;
+}
+
+/* CIERRE BARRA NAVEGACION */
+
+/* CARROUSEL DE GALERIA */
+
+.galeriafotos {
+    /* height: 20px; */
+    width: 800px;
+    padding: 30px;
+}
+
+
+/* MAIN IMAGEN DE FONDO */
+
+main {
+    height: 190vh;
+    width: 100%;
+    background-color: #333;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/* INTRODUCCION TEXTO BIENVENIDA */
+
+
+.introduccion {
+    width: 95%;
+    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 3px solid wheat;
+    padding: 20px;
+    position: absolute;
+    top: 90%;
+}
+
+.introduccion p {
+    color: wheat;
+    font-size: 20px;
+    text-align: center;
+    -webkit-text-decoration: solid;
+    text-decoration: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.introduccion a {
+    color: wheat;
+    text-align: center;
+    background-color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: fuenteviccio;
+    margin: 45%;
+}
+
+.introduccion a:hover {
+    background-color: rgb(209, 96, 31);
+}
+
+/* TARJETAS MAIN */
+
+.card-deck {
+    /* width: 20px !important; */
+    height: 400px !important;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    /* position: absolute; */
+}
+
+.card-deck .card {
+    background-color: #333;
+    font-size: 20px;
+    color: wheat;
+    font-family: fuenteviccio;
+    /* padding: 100px; */
+    top: 300px;
+    position: relative;
+
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #333;
+    padding: 30px;
+    text-align: center;
+    color: wheat;
+    font-size: 20px;
+    font-family: fuenteviccio;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .linkredes a {
+    color: wheat;
+    letter-spacing: 20px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+footer .logofooter {
+    position: absolute;
+    top: 290%;
+    margin-right: 8%;
+    right: 0;
+    font-size: 100px;
+}
+
+footer .logofooter a {
+    color: wheat;
+}
+
+footer .mapasitio {
+    width: 100%;
+    text-align: left;
+    color: wheat;
+    font-size: 20px;
+    /* display: flex; */
+}
+
+footer .mapasitio li {
+    list-style: none;
+    color: wheat;
+    font-size: 20px;
+    height: 20px;
+    width: 40%;
+    padding: 13px;
+}
+
+footer .mapasitio a {
+    text-decoration: none;
+    color: wheat;
+}
+
+footer .mapasitio p {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+/* FORMULARIO CONTACTOS */
+
+
+
+form {
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+}
+
+form input {
+    width: 100%;
+}
+
+
+
+form textarea {
+    width: 100%;
+}
+
+.formulario {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: wheat;
+    font-weight: 500px;
+    font-family: fuenteviccio;
+}
+
+form #enviar {
+    font-size: 20px;
+    background-color: #333;
+}
+
+/* MAPA */
+.ubicacion {
+    text-align: center;
+    padding: 1%;
+    color: wheat;
+    font-family: fuenteviccio;
+    font-size: 20p;
+}
+
+main .mapadellugar {
+    height: 80%;
+    width: 100%;
+    padding: 5%;
+}
+
+
+/* FOTOS DE PRODUCTOS */
